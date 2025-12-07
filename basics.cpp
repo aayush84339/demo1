@@ -17,6 +17,10 @@ void printPattern1(int n){
     }
 }
 
+void github(){
+    cout << "this is my first step into github";
+}
+
 void printPattern2(int n){
     for (int i = 0; i<n/2; i++){
         for (int j = 1; j <= n/2-i; j++){
@@ -199,4 +203,5 @@ int main(){
     cout << grid(arr, 0, 0);
 
     return 0;
+
 }
